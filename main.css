@@ -1,46 +1,59 @@
 body {
-  background-color:cornflowerblue;
+  /* colors */
+  background-color: cornflowerblue;
   color: white;
 }
 
-.details{
-font-size: 20px;
+
+.details {
+  font-size: 20px;
 }
 
-.party-invite {
 
+.party-invite {
+  /* colors */
   background-color: black;
+
+  /* Flexbox */
   display: flex;
   flex-direction: column;
+
+  /* alignment and width */
   text-align: center;
   max-width: 45ch;
 
+  /* Box Model */
   padding: 2rem;
   margin: 2em auto;
 }
 
 
-
-.people{
+.people {
   list-style: none;
 }
 
-button{
+
+button {
+  /* colors and font */
   background-color: palevioletred;
   font-size: 18px;
+
+  /* box model and width */
   margin: 0 auto;
   max-width: 20ch;
   padding: 0.5rem;
 }
 
-button:hover{
+button:hover {
   background-color: white;
 }
 
-button:active{
+button:active {
   background-color: darkorange;
 }
 
-.answer{
+
+/* answer text color */
+.answer {
   color: darkorange;
 }
